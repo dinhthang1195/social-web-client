@@ -78,11 +78,17 @@
 			}
 		}
 
-		.headerNavigate {
-			background-color: olivedrab;
-		}
-		.headerOptional {
-			background-color: red;
+		.rightHandSide {
+			display: flex;
+			direction: row;
+			align-items: center;
+			justify-content: flex-end;
+			.headerNavigate {
+				background-color: olivedrab;
+			}
+			.headerOptional {
+				background-color: red;
+			}
 		}
 	}
 }

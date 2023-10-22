@@ -21,8 +21,10 @@ function Header() {
 						</div>
 					</div>
 				</div>
-				<div className={styles.headerNavigate}>nav</div>
-				<div className={styles.headerOptional}>optional</div>
+				<div className={styles.rightHandSide}>
+					<div className={styles.headerNavigate}>nav</div>
+					<div className={styles.headerOptional}>optional</div>
+				</div>
 			</div>
 		</header>
 	);
